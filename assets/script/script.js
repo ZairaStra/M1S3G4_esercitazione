@@ -16,9 +16,12 @@ const cells = function () {
 };
 //container.appendChild(cells);
 cells();
+console.dir(cells);
 
 const button = document.createElement("button");
 button.innerText = "estrai un numero";
-console.log(button);
 button.classList.add("button");
+console.log(button);
 //container.appendChild("button");
+
+button.onclick = function (e) {};
