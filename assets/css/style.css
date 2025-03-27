@@ -19,8 +19,14 @@ h1 {
 }
 
 main {
-  display: inline-block;
   margin: 70px;
+}
+
+#container {
+  width: 100%;
+  height: 600px;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .cells {
@@ -33,4 +39,11 @@ main {
   border-width: 2px;
   border-color: blueviolet;
   border-radius: 2px;
+}
+#button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: blueviolet;
+  border-radius: 2px;
+  background-color: azure;
 }
